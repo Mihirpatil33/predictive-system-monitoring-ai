@@ -1,0 +1,3 @@
+data/sample_logs.csv
+__pycache__/
+*.pyc
