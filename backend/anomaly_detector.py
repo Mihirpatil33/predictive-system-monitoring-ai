@@ -2,18 +2,34 @@ import pandas as pd
 from sklearn.ensemble import IsolationForest
 import csv
 import datetime
+import logging
 
-data = pd.read_csv("data/sample_logs.csv")
+logger = logging.getLogger()
 
-features = data[["cpu","memory","error"]]
+def train_model():
+    data = pd.read_csv("data/sample_logs.csv")
 
-model = IsolationForest(contamination=0.2)
-model.fit(features)
+    features = data[["cpu","memory","error"]]
 
-predictions = model.predict(features)
+    model = IsolationForest(contamination=0.2)
+    model.fit(features)
 
-data["anomaly"] = predictions
+    return model
 
-for i in range(len(data)):
-    if data["anomaly"][i] == -1:
-        print("ALERT!", data.iloc[i])
+
+def detect_anomaly(model):
+
+    data = pd.read_csv("data/sample_logs.csv")
+
+    features = data[["cpu", "memory", "error"]]
+
+    predictions = model.predict(features)
+
+    data["anomaly"] = predictions
+
+    last_row = data.iloc[-1]
+
+    if last_row["anomaly"] == -1:
+        logger.warning(
+            f"ANOMALY DETECTED: {last_row.to_dict()}"
+        )
