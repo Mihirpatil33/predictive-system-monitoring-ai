@@ -1,6 +1,7 @@
 import random
 from datetime import datetime
 import csv
+from config import CSV_PATH
 
 def generate_log():
     cpu = random.randint(10,100)
@@ -9,4 +10,4 @@ def generate_log():
 
     time = datetime.now()
 
-    return[time,cpu,memory,error]
+    return[time,cpu,memory,error]   

@@ -1,3 +1,4 @@
 data/sample_logs.csv
+logs/
 __pycache__/
 *.pyc
