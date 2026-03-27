@@ -62,6 +62,20 @@ predictive-system-monitoring-ai/
 
 ---
 
+## API Endpoints
+
+- `GET /` → Check if API is running  
+- `GET /health` → Health status of system  
+- `GET /latest` → Latest log with risk level  
+- `GET /logs?limit=10` → Fetch last N logs  
+
+Run API using:
+
+```bash
+python -m uvicorn backend.api:app --reload
+
+---
+
 ## Future Improvements
 
 - Save and reuse ML model

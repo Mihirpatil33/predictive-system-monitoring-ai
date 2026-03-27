@@ -3,17 +3,27 @@ from sklearn.ensemble import IsolationForest
 import csv
 import datetime
 import logging
-from config import CSV_PATH, CONTAMINATION
+from backend.config import CSV_PATH, CONTAMINATION
+from backend.model_manager import save_model, load_model
 
 logger = logging.getLogger()
 
 def train_model():
+
+    model = load_model()
+
+    if model is not None:
+        return model
+
     data = pd.read_csv(CSV_PATH)
 
-    features = data[["cpu","memory","error"]]
+    features = data[["cpu", "memory", "error"]]
 
     model = IsolationForest(contamination=CONTAMINATION)
+
     model.fit(features)
+
+    save_model(model)
 
     return model
 

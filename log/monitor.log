@@ -1,0 +1,37 @@
+2026-03-23 14:48:03,034 - INFO - Log saved: [datetime.datetime(2026, 3, 23, 14, 48, 3, 34421), 55, 66, 2]
+2026-03-23 14:48:06,052 - INFO - Log saved: [datetime.datetime(2026, 3, 23, 14, 48, 6, 51334), 99, 70, 6]
+2026-03-23 14:48:06,070 - WARNING - ANOMALY DETECTED: {'time': '2026-03-23 14:48:06.051334', 'cpu': 99, 'memory': 70, 'error': 6, 'anomaly': -1}
+2026-03-23 14:48:09,071 - INFO - Log saved: [datetime.datetime(2026, 3, 23, 14, 48, 9, 71029), 93, 55, 9]
+2026-03-23 14:48:12,091 - INFO - Log saved: [datetime.datetime(2026, 3, 23, 14, 48, 12, 90325), 22, 54, 9]
+2026-03-23 14:54:05,382 - INFO - Log saved: [datetime.datetime(2026, 3, 23, 14, 54, 5, 382127), 41, 94, 3]
+2026-03-23 14:54:05,405 - WARNING - WARNING DETECTED: {'time': '2026-03-23 14:54:05.382127', 'cpu': 41, 'memory': 94, 'error': 3, 'anomaly': 1, 'risk': 'WARNING'}
+2026-03-23 14:54:08,406 - INFO - Log saved: [datetime.datetime(2026, 3, 23, 14, 54, 8, 406257), 62, 12, 7]
+2026-03-23 14:54:11,431 - INFO - Log saved: [datetime.datetime(2026, 3, 23, 14, 54, 11, 430573), 13, 49, 2]
+2026-03-23 14:54:14,457 - INFO - Log saved: [datetime.datetime(2026, 3, 23, 14, 54, 14, 456268), 90, 67, 7]
+2026-03-23 14:54:14,480 - WARNING - WARNING DETECTED: {'time': '2026-03-23 14:54:14.456268', 'cpu': 90, 'memory': 67, 'error': 7, 'anomaly': 1, 'risk': 'WARNING'}
+2026-03-23 14:54:17,481 - INFO - Log saved: [datetime.datetime(2026, 3, 23, 14, 54, 17, 480981), 62, 85, 8]
+2026-03-23 14:54:17,505 - WARNING - CRITICAL DETECTED: {'time': '2026-03-23 14:54:17.480981', 'cpu': 62, 'memory': 85, 'error': 8, 'anomaly': 1, 'risk': 'CRITICAL'}
+2026-03-23 14:54:20,506 - INFO - Log saved: [datetime.datetime(2026, 3, 23, 14, 54, 20, 505888), 81, 74, 0]
+2026-03-23 14:54:20,533 - WARNING - ANOMALY DETECTED: {'time': '2026-03-23 14:54:20.505888', 'cpu': 81, 'memory': 74, 'error': 0, 'anomaly': -1, 'risk': 'ANOMALY'}
+2026-03-23 14:56:17,817 - INFO - Log saved: [datetime.datetime(2026, 3, 23, 14, 56, 17, 817072), 62, 28, 4]
+2026-03-23 14:56:17,841 - INFO - System normal
+2026-03-23 14:56:20,842 - INFO - Log saved: [datetime.datetime(2026, 3, 23, 14, 56, 20, 841803), 70, 20, 7]
+2026-03-23 14:56:20,869 - INFO - System normal
+2026-03-23 14:56:23,870 - INFO - Log saved: [datetime.datetime(2026, 3, 23, 14, 56, 23, 870114), 20, 94, 6]
+2026-03-23 14:56:23,896 - WARNING - ANOMALY DETECTED: {'time': '2026-03-23 14:56:23.870114', 'cpu': 20, 'memory': 94, 'error': 6, 'anomaly': -1, 'risk': 'ANOMALY'}
+2026-03-23 14:56:26,897 - INFO - Log saved: [datetime.datetime(2026, 3, 23, 14, 56, 26, 897009), 57, 87, 3]
+2026-03-23 14:56:26,924 - INFO - System normal
+2026-03-23 14:56:29,925 - INFO - Log saved: [datetime.datetime(2026, 3, 23, 14, 56, 29, 924530), 59, 15, 8]
+2026-03-23 14:56:29,954 - WARNING - ANOMALY DETECTED: {'time': '2026-03-23 14:56:29.924530', 'cpu': 59, 'memory': 15, 'error': 8, 'anomaly': -1, 'risk': 'ANOMALY'}
+2026-03-23 14:56:32,955 - INFO - Log saved: [datetime.datetime(2026, 3, 23, 14, 56, 32, 954874), 93, 22, 9]
+2026-03-23 14:56:32,982 - WARNING - ANOMALY DETECTED: {'time': '2026-03-23 14:56:32.954874', 'cpu': 93, 'memory': 22, 'error': 9, 'anomaly': -1, 'risk': 'ANOMALY'}
+2026-03-27 14:34:40,957 - INFO - Log saved: [datetime.datetime(2026, 3, 27, 14, 34, 40, 956911), 28, 75, 4]
+2026-03-27 14:34:40,981 - INFO - System normal
+2026-03-27 14:34:43,983 - INFO - Log saved: [datetime.datetime(2026, 3, 27, 14, 34, 43, 982621), 39, 93, 7]
+2026-03-27 14:34:44,009 - INFO - WARNING STATE: {'time': '2026-03-27 14:34:43.982621', 'cpu': 39, 'memory': 93, 'error': 7, 'anomaly': 1, 'risk': 'WARNING'}
+2026-03-27 14:34:47,010 - INFO - Log saved: [datetime.datetime(2026, 3, 27, 14, 34, 47, 9943), 54, 99, 10]
+2026-03-27 14:34:47,035 - WARNING - ANOMALY DETECTED: {'time': '2026-03-27 14:34:47.009943', 'cpu': 54, 'memory': 99, 'error': 10, 'anomaly': -1, 'risk': 'ANOMALY'}
+2026-03-27 14:34:50,037 - INFO - Log saved: [datetime.datetime(2026, 3, 27, 14, 34, 50, 36748), 47, 90, 8]
+2026-03-27 14:34:50,064 - WARNING - CRITICAL STATE: {'time': '2026-03-27 14:34:50.036748', 'cpu': 47, 'memory': 90, 'error': 8, 'anomaly': 1, 'risk': 'CRITICAL'}
+2026-03-27 14:34:53,065 - INFO - Log saved: [datetime.datetime(2026, 3, 27, 14, 34, 53, 64860), 30, 70, 9]
+2026-03-27 14:34:53,092 - WARNING - CRITICAL STATE: {'time': '2026-03-27 14:34:53.064860', 'cpu': 30, 'memory': 70, 'error': 9, 'anomaly': 1, 'risk': 'CRITICAL'}

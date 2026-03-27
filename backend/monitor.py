@@ -1,4 +1,4 @@
-from log_generator import generate_log
+from backend.log_generator import generate_log
 from anomaly_detector import detect_anomaly, train_model
 import csv
 import time
